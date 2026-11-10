@@ -9,7 +9,7 @@ type Props = {
 }
 
 function ArtistProfile({ artistData }: Props) {
-    const faceSquareSrc = `${baseURL}pasta/${artistData.idImgs}/square-face.webp`
+    const faceSquareSrc = `${baseURL}content/${artistData.idImgs}/square-face.webp`
     return (
         <div className='artist-profile'>
             <img

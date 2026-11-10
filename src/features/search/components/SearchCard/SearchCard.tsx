@@ -47,7 +47,7 @@ function SearchCard({ artistData }: Props) {
             <div className="shadow-background"></div>
             <img
                 className='card-back-img'
-                src={`${baseURL}pasta/${idImgs}/rect-face.webp`}
+                src={`${baseURL}content/${idImgs}/rect-face.webp`}
                 alt="Imagem do artista"
             />
             <div className="artist-result-info">

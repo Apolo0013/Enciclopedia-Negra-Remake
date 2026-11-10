@@ -10,6 +10,7 @@ export type Alfabeto = typeof alfabeto[number]
 
 export type ArtistsData = Record<Alfabeto, ArtistData[]>
 
+
 export type ArtistData = {
     name: string,
     age: Age,
@@ -18,7 +19,7 @@ export type ArtistData = {
     works: Works[],
     legacy: string,
     idImgs: string,
-    letter: Alfabeto
+    letter: string
 }
 
 export type Age = {

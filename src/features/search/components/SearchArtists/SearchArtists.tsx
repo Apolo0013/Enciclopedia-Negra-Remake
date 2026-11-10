@@ -2,7 +2,6 @@ import './SearchArtists.scss'
 //components
 import SearchCard from '../SearchCard'
 import type { ArtistData } from '../../../../data/type'
-import data from '../../../../data'
 //type
 type Props = {
     valuesSearch: ArtistData[]

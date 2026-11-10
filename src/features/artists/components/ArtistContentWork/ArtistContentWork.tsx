@@ -23,7 +23,7 @@ function ArtistContentWork({ artistData }: Props) {
                                 </h2>
                                 <div className='work-content'>
                                     <img
-                                        src={`${baseURL}pasta/${artistData.idImgs}/work-number-${key + 1}.webp`}
+                                        src={`${baseURL}content/${artistData.idImgs}/work-number-${key + 1}.webp`}
                                         alt="Imagem da obra"
                                     />
                                     <p className='paragraph-work'>

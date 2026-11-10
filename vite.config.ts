@@ -11,6 +11,6 @@ export default defineConfig(() => {
         svgr(),
         tailwindcss()
         ],
-        base: '/Enciclopedia-Negra/'
+        base: '/Enciclopedia-Negra-Remake/'
     }
 })
