@@ -1,75 +1,47 @@
-# React + TypeScript + Vite
+# 📚 Enciclopédia Negra — Remake
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma reimplementação de um projeto educacional originalmente desenvolvido em React, com o objetivo de aprimorar sua estrutura técnica, organização e experiência visual.
 
-Currently, two official plugins are available:
+Esta nova versão mantém a proposta original de valorizar artistas da comunidade negra, mas apresenta melhorias significativas na arquitetura, tipagem e interface da aplicação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Projeto Original
 
-## React Compiler
+Esta versão é um remake de um projeto escolar desenvolvido anteriormente.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Versão original:** [Enciclopédia Negra — Original](https://apolo0013.github.io/Enciclopedia-Negra/#/home/)
+- **Nova versão:** [Adicionar link do remake aqui](https://github.com/Apolo0013/Enciclopedia-Negra)
 
-## Expanding the ESLint configuration
+## ✨ Principais Melhorias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Arquitetura aprimorada:** melhor organização dos diretórios, componentes e responsabilidades da aplicação.
+- **Tipagem estática:** utilização de TypeScript para aumentar a segurança e previsibilidade do código.
+- **Componentização:** componentes mais organizados, reutilizáveis e com responsabilidades bem definidas.
+- **Layout modernizado:** interface mais limpa, consistente e intuitiva, priorizando a legibilidade e a experiência do usuário.
+- **Estilização aprimorada:** organização dos estilos com SCSS e maior consistência visual.
+- **Navegação:** estrutura de rotas organizada para facilitar a navegação entre as páginas.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🧭 Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Home:** apresentação do projeto e seus destaques.
+- **Artistas:** galeria de personalidades negras organizadas alfabeticamente.
+- **Pesquisa:** busca de artistas por nome ou letra.
+- **Sobre:** apresentação da proposta e dos objetivos do projeto.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Tecnologias Utilizadas
 
-```
+- React
+- TypeScript
+- SCSS
+- HTML5
+- React Router
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🎯 Objetivo do Remake
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Além de preservar a finalidade educacional do projeto original, esta reimplementação busca aplicar melhores práticas de desenvolvimento Front-end, explorando uma arquitetura mais organizada, código tipado e uma interface visual mais consistente.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 👨‍💻 Desenvolvedor
 
-```
+**Apolonio Guilherme**
+
+- [GitHub](https://github.com/Apolo0013)
+- [Portfólio](https://apolo0013.github.io/Portifolio-v2/)
